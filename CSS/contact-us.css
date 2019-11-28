@@ -9,13 +9,10 @@ html {
 body {
     margin-top: 20vh;
 }
+
 .container-fluid {
     background: #e9ecef;
     overflow-x: hidden;
-}
-
-.container {
-    box-shadow: 0px 3px 5px 3px #eee;
 }
 
 .navbar-brand {
@@ -34,4 +31,33 @@ body {
 
 .white-hover:hover {
     color: #fff !important;
+}
+
+.marquee h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to left, #ffc107, #da8320);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    word-spacing: 5px;
+}
+
+.social-media-handles {
+    display: flex;
+}
+
+.social-media-handles > div {
+    text-align: center;
+    margin-right: 70px;
+}
+
+.copyright-text {
+    background: #6c757d;
+    text-align: center;
+}
+
+footer {
+    margin-top: 150px;
 }
