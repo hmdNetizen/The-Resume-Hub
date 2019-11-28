@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 20vh;
+}
+.container-fluid {
+    background: #e9ecef;
+    overflow-x: hidden;
+}
+
+.container {
+    box-shadow: 0px 3px 5px 3px #eee;
+}
+
+.navbar-brand {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 36px;
+}
+
+.nav-link:hover {
+    background: #eee;
+    color: #000 !important;
+}
+
+.nav-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.white-hover:hover {
+    color: #fff !important;
+}
+
+.col.left-side-col {
+    background: url(../images/bkg-img.jpg) no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.col.right-side-col {
+    background: #ffc107;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.form-container h3 {
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+}
+
+.form-group {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form-group input {
+    padding-left: 35px;
+}
+
+.form-group img {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+}
+
+.form-control {
+    margin: 30px 0;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: -10px 0 30px 0;
+}
+
+button[type="submit"] {
+    margin-bottom: 50px;
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.aside-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.aside-message h3 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+}
+
+.aside-message p {
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.section-division {
+    display: flex;
+    width: 60%;
+    margin: 30px auto 20px
+}
+
+.section-division .line {
+    width: 45%;
+    border: 1.5px solid #ccc;
+    margin-top: 12px
+}
+
+.footer {
+    margin-bottom: 150px;
+}
